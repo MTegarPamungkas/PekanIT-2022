@@ -1,0 +1,33 @@
+.text-none{
+    text-decoration: none;
+}
+
+.bg-hero{
+    background-color: rgb(59, 130, 246);
+    background-image: radial-gradient(at 100% 36%, rgb(133, 77, 14) 0, transparent 1%), radial-gradient(at 87% 24%, rgb(77, 124, 15) 0, transparent 67%), radial-gradient(at 24% 88%, rgb(12, 74, 110) 0, transparent 83%), radial-gradient(at 14% 29%, rgb(34, 197, 94) 0, transparent 74%), radial-gradient(at 22% 32%, rgb(220, 38, 38) 0, transparent 34%), radial-gradient(at 51% 21%, rgb(204, 251, 241) 0, transparent 8%);
+  
+}
+
+.bgEvent{
+    background-image: url("https://thumbs.dreamstime.com/b/software-development-data-digital-programs-system-technology-concept-software-development-data-digital-programs-system-technology-114631832.jpg");
+}
+
+.blurCustom {
+    /* backdrop-filter: opacity(20%); */
+    
+    /* filter: blur(2px); */
+    /* -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px); */
+    /* position: relative; */
+}
+
+.my-class {
+    transform:scale(1, 1);
+    transition: 1s;
+
+} 
+.my-class:hover {
+    transform:scale(1.5, 1.5);
+}
